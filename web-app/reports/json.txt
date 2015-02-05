@@ -1,0 +1,42 @@
+{ 
+    "data_header": 
+    [ 
+        {"report_date":"2012_03_01", "data_bucket":"Portfolio 1", "start_date":"2008_01_01", "end_date":"2008_07_07", "report_ccy":"EUR"} 
+
+    ], 
+    "data_table": 
+    [ 
+        {"month":"Jan 2008", "v_real":444333.45, "v_th":443333.45, "delta_v_th":4663.45, "cf_real":17222.45, "cf_th":21333.45, "delta_cf_th":333.45}, 
+        {"month":"Feb 2008", "v_real":380333.45, "v_th":400333.45, "delta_v_th":4663.45, "cf_real":22222.45, "cf_th":19333.45, "delta_cf_th":333.45}, 
+        {"month":"Mar 2008", "v_real":360333.45, "v_th":340333.45, "delta_v_th":4663.45, "cf_real":14222.45, "cf_th":16333.45, "delta_cf_th":333.45}, 
+        {"month":"Apr 2008", "v_real":350333.45, "v_th":320333.45, "delta_v_th":4663.45, "cf_real":18222.45, "cf_th":15333.45, "delta_cf_th":333.45}, 
+        {"month":"May 2008", "v_real":300333.45, "v_th":300333.45, "delta_v_th":4663.45, "cf_real":12222.45, "cf_th":14000.45, "delta_cf_th":333.45}, 
+        {"month":"Jun 2008", "v_real":220333.45, "v_th":290333.45, "delta_v_th":4663.45, "cf_real":16222.45, "cf_th":13333.45, "delta_cf_th":333.45}, 
+        {"month":"Jul 2008", "v_real":90333.45, "v_th":280333.45, "delta_v_th":4663.45, "cf_real":10222.45, "cf_th":12000.45, "delta_cf_th":333.45} 
+    ],
+    "data_chart_v": 
+    [ 
+        {"month":"Jan 2008", "v_real":444333.45, "v_th":444333.45, "delta_v_th":4663.45},
+        {"month":"Feb 2008", "v_real":380333.45, "v_th":400333.45, "delta_v_th":4663.45}, 
+        {"month":"Mar 2008", "v_real":360333.45, "v_th":340333.45, "delta_v_th":4663.45}, 
+        {"month":"Apr 2008", "v_real":350333.45, "v_th":320333.45, "delta_v_th":4663.45}, 
+        {"month":"May 2008", "v_real":300333.45, "v_th":300333.45, "delta_v_th":4663.45}, 
+        {"month":"Jun 2008", "v_real":220333.45, "v_th":290333.45, "delta_v_th":4663.45}, 
+        {"month":"Jul 2008", "v_real":90333.45, "v_th":280333.45, "delta_v_th":4663.45}
+    ],
+    "data_chart_cf": 
+    [ 
+        {"month":"Jan 2008", "cf_real":17222.45, "cf_th":21333.45, "delta_cf_th":333.45}, 
+        {"month":"Feb 2008", "cf_real":22222.45, "cf_th":19333.45, "delta_cf_th":333.45}, 
+        {"month":"Mar 2008", "cf_real":14222.45, "cf_th":16333.45, "delta_cf_th":333.45}, 
+        {"month":"Apr 2008", "cf_real":18222.45, "cf_th":15333.45, "delta_cf_th":333.45}, 
+        {"month":"May 2008", "cf_real":12222.45, "cf_th":14000.45, "delta_cf_th":333.45}, 
+        {"month":"Jun 2008", "cf_real":16222.45, "cf_th":13300.45, "delta_cf_th":333.45}, 
+        {"month":"Jul 2008", "cf_real":10222.45, "cf_th":12000.45, "delta_cf_th":333.45} 
+    ],
+    "data_summary": 
+    [ 
+        {"overall_model_quality":"77.15%", "validation_success":"Yes"} 
+
+    ]  
+}

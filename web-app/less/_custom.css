@@ -1,0 +1,345 @@
+/*css file to customize pltool design*/
+
+/*main divs */
+
+#plmain #pl-inner {
+
+    margin-left: 3px;
+    padding:3px;
+}
+
+/*content gsp*/
+
+.pl-content{
+    border: 1px solid #DDDDDD;
+    color: #222222;
+}
+
+
+
+/*accordion-modification*/
+
+#pl-content > div.accordion > div.accordion-inner{
+    padding:0;
+    border-radius:0;
+}
+
+.accordion{
+    margin: 1px;
+    padding: 0px;
+
+}
+
+.accordion-group{
+    border: 0px solid #E5E5E5;
+    border-radius: 0;
+    margin-bottom: 2px;
+    background-color: #fefefe;
+
+}
+
+div.accordion-inner > .well{
+    background-color: #F9F9F9;
+    margin-bottom: 0;
+    padding: 0 0 0 5px;
+    border-radius:0px;
+}
+
+/*input {
+    background:  #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-size: 10px;
+    padding: 3px 8px;
+}*/
+
+/*Navbar-mods*/
+
+#pltool-navbar > ul.nav-list > li > a{
+    padding: 1px 0 0 45px;
+}
+#pltool-navbar > ul.nav-list > li > a:hover{
+    background-color: #f6f6f6;
+}
+
+.nav-tabs  {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+}
+
+#pl-tab-template > ul.nav-tabs > li{
+
+    border-radius:1px;
+    border-color: #DDDDDD #DDDDDD transparent;
+    margin: 1px 0.2em 0 0;
+
+
+}
+
+#pl-tab-template > ul.nav-tabs > li:first-of-type{
+    margin-left:2px;
+}
+
+#plmain {
+    font-family:Verdana,Arial,sans-serif;
+    margin: 0;
+    width: 100%;
+    padding-left:1px;
+    font-size:9pt;
+}
+#plmain > div > #pltool-navbar {
+
+    min-height: 50px;
+    float: left;
+    margin-top: 0px;
+    padding: 0;
+    margin-left: 0px;
+    width: 170px;
+
+
+}
+#pltool-navbar .item {
+    margin-bottom: 5px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    height: 18px;
+    text-decoration: none;
+    margin-right:0px;
+    font-size:8pt;
+}
+#pltool-navbar .item.normal {
+    color: #333;
+    background-color: #ededed;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#pltool-navbar .item.active {
+    color: #2b5582;
+    background-color: #ededed;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.menuicon {
+    padding: 7px 0 0 45px;
+    background-repeat: no-repeat;
+    background-position: 20px 5px;
+    color: #333;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* navbar icons */
+
+
+
+/*eigene Klassen*/
+/*allgemein*/
+.notshown{
+    display:none;
+}
+/* Search-template*/
+
+#pl-search-template-searched-object > form{
+    margin:0px;
+}
+#pl-search-template-searched-object-form{
+    margin:0px;
+}
+
+div[mycustomsearchid]{
+   margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+.custom-search{
+    border: 1px;
+    background:  rgb(251, 251, 251);
+}
+
+.border-small{
+    border: 0.1em solid #E3E3E3;
+    border-radius: 0px;
+}
+
+.border-bottom{
+    border-bottom: 0.1em solid #E3E3E3;
+}
+
+#pl-search-template-custom-form select{
+
+    font-family:Verdana,Arial,sans-serif;
+    padding: 2px;
+    border-radius: 0 0 0 0;
+    vertical-align: top;
+    height: 20px;
+    width: 70px;
+    margin-right:1px;
+    font-size: 8pt;
+}
+
+
+#pl-search-template-quick{
+    border: 1px solid #CCCCCC;
+    background: rgb(251, 251, 251);
+    padding: 5px;
+    margin-right: 55px;
+    margin-top:30px;
+
+
+}
+
+#pl-search-sql-text-area{
+    position:relative;
+    top:30px;
+    left:-140px;
+}
+
+#pl-search-template-custom-form input {
+    vertical-align: top;
+    width: 70px;
+    height: 14px;
+    font-size:8pt;
+}
+
+div[myId='quick-search-elements']{
+    margin-top: 0px;
+    display: inline-block;
+    font-size:8pt;
+}
+
+div[myId='quick-search-elements'] > input {
+    position: relative;
+
+}
+
+.search{
+    background-color: #F9F9F9;
+    padding: 15px;
+}
+
+
+/*
+select{
+    font-family:Verdana,Arial,sans-serif;
+    padding: 2px;
+    border-radius: 0 0 0 0;
+    vertical-align: top;
+    height: 20px;
+    width: 70px;
+}
+*/
+
+
+
+form label {
+    color: #000000 !important;
+    display: inline-block;
+    font-size: 10px;
+    width: 150px;
+}
+
+#pl-reports-input-template form label{
+    width: 150px;
+}
+
+/* Modal - progress bar*/
+#myModal{
+    left: 42%;
+    margin:0px;
+    outline: medium none;
+    position:fixed;
+
+    box-shadow:none;
+    top: 50%;
+
+    background-color: #32cd32;
+    width: 220px;
+    height: 19px;
+    z-index: 1050;
+}
+
+
+
+/*pagination mods*/
+ol.pager{
+    margin: 2px;
+    font-size:9pt;
+}
+
+ol.pager > li > input.pagination-input{
+
+    border-radius: 0px;
+    width: 20px;
+    margin-bottom: 0px; ;
+    height: 9px;
+    padding:0px;
+    text-align: right;
+    font-size:5pt;
+
+}
+
+.pagination-select{
+    width: 50px;
+    border-radius: 0px;
+    text-align: center;
+    height: 13.75px;
+    padding:0;
+    font-size:5pt;
+    margin-bottom:0px;
+
+
+}
+
+.pagination-text{
+    vertical-align:middle;
+    position: relative;
+
+    font-size:5pt;
+}
+.pager > li{
+    line-height:11px;
+}
+
+.pager > li > a.align-right, .pager > li > a.align-left{
+    vertical-align:middle;
+    padding: 0.5px 4px;
+    margin-top: 0px;
+    border-radius:0px;
+    font-size:5pt;
+    height:11px;
+}
+
+/*details Subtabs*/
+
+
+ span.uneditable-input{
+    border-radius:0px;
+}
+
+
+
+#tabcontent{
+    padding: 5px;
+}
+
+#myTab > li{
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border-radius:1px;
+    border-color: #DDDDDD #DDDDDD transparent;
+    argin: 1px 0.2em 0 0;
+}
+
+#myTab > li:first-of-type{
+    margin-left:2px;
+}
+
+#overlay{
+    z-index:1;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+
+}
